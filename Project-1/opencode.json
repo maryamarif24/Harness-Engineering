@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/opencode-settings.json",
+  "permission": {
+    "edit": "ask",
+    "bash": {
+      "*": "ask",
+      "npm test*": "allow",
+      "git diff*": "allow",
+      "git push --force*": "deny",
+      "rm -rf*": "deny"
+    }
+  }
+}
